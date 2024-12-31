@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+body{
+   background-image: url(dddepth-260.jpg);
+min-width: 300px;
+max-width: 2000px;
+margin: 10px;
+line-height: 60px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 100%;
+}
+
+.container{
+    margin: 100px auto;
+   border: 1px solid black;
+    backdrop-filter: blur(8px);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+    color: #333;
+    animation: bharani 3s ease-in-out infinite;
+}
+@keyframes bharani {
+    0%{
+        color: #ff3c3c;
+    }
+    100%{
+        color: #973cff;
+    }
+}
+@keyframes bharanis {
+    0%{
+       background-color: blue;
+    }
+    100%{
+       background-color: green;
+    }
+}
+.form-group{
+    margin-bottom: 20px;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: 600;
+}
+
+input[type="text"]{
+    width: 95%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+}
+
+button{
+    animation: bharanis 1s ease-in infinite;
+    padding: 10px 20px;
+    font-size: 16px;
+background-color: #ff3c3c;
+letter-spacing: 1px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.result-container{
+    border-radius: 20px;
+    display: none;
+    margin-top: 20px;
+    backdrop-filter: blur(8px);
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.result{
+    margin-top: 10px;
+}
+input::placeholder{
+    color: aliceblue;
+}
+
+.result h3{
+    color: #e100ff;
+
+    letter-spacing: 2px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.result p{
+    text-align: center;
+    border-radius: 12px;
+    border: 1px solid black;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    margin-bottom: 10px;
+}
